@@ -92,7 +92,7 @@ def construct_resgen_dataset(data):
 
 if __name__ == '__main__':
     # 读取原始数据，划分数据集
-    with open('./CMED_dataset.jsonl','r') as f:
+    with open('path/to/CMED.jsonl','r') as f:
         data = [json.loads(line) for line in f]
     
     # 构造微调数据集
