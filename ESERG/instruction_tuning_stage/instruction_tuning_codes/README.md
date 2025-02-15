@@ -16,4 +16,4 @@ you should merge the LoRA weights (i.e., the output from the previous step) into
 bash run_merge_peft_adapter.sh
 ```
 
-The merged model is saved in the `--output_dir` directory.
+The merged model is saved in the `--output` directory.
