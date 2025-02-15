@@ -106,15 +106,15 @@ if __name__ == '__main__':
     resgen_train_data, resgen_valid_data, resgen_test_data = split_dataset(resgen_dataset)
     
     # 保存数据集
-    save_jsonl(emo_train_data, './finetune_data/train/emo_train.jsonl')
-    save_jsonl(emo_valid_data, './finetune_data/dev/emo_valid.jsonl')
-    save_jsonl(emo_test_data, './finetune_data/test/emo_test.jsonl')
+    save_jsonl(emo_train_data, 'path/to/save_path.jsonl')
+    save_jsonl(emo_valid_data, 'path/to/save_path.jsonl')
+    save_jsonl(emo_test_data, 'path/to/save_path.jsonl')
     
-    save_jsonl(stra_train_data, './finetune_data/train/stra_train.jsonl')
-    save_jsonl(stra_valid_data, './finetune_data/dev/stra_valid.jsonl')
-    save_jsonl(stra_test_data, './finetune_data/test/stra_test.jsonl')
+    save_jsonl(stra_train_data, 'path/to/save_path.jsonl')
+    save_jsonl(stra_valid_data, 'path/to/save_path.jsonl')
+    save_jsonl(stra_test_data, 'path/to/save_path.jsonl')
     
-    save_jsonl(resgen_train_data, './finetune_data/train/resgen_train.jsonl')
-    save_jsonl(resgen_valid_data, './finetune_data/dev/resgen_valid.jsonl')
-    save_jsonl(resgen_test_data, './finetune_data/test/resgen_test.jsonl')
+    save_jsonl(resgen_train_data, 'path/to/save_path.jsonl')
+    save_jsonl(resgen_valid_data, 'path/to/save_path.jsonl')
+    save_jsonl(resgen_test_data, 'path/to/save_path.jsonl')
     
